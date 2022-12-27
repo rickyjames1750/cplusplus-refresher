@@ -134,5 +134,36 @@ int main() {
       ravenclaw++;
      else 
       std::cout << "Invalid input\n";
+
+
+    // Sorting 
+      std::cout << "\nCongrats on being sorted into... ";
+
+      int max = 0;
+      std::string house;
+
+      if (gryffindor > max)
+      {
+
+        max = gryffindor;
+        house = "Gryffindor";
+      }
+
+      if (hufflepuff > max) {
+        max = hufflepuff;
+        house = "Hufflepuff";
+      }
+      if (ravenclaw > max) {
+
+        max = ravenclaw;
+        house = "Ravenclaw";
+      }
+      if (slytherin > max) {
+        max = slytherin;
+        house = "Slytherin";
+      }
+
+        std::cout << house << "!\n";
+        return 0;
  
 }
