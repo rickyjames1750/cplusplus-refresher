@@ -28,5 +28,18 @@ int main() {
   int spock = 5;
 
   std::cin >> user;
+
+  /*
+  rock > scissors 
+  scissors > paper
+  paper > rock 
+  lizard > spock
+  spock > scissors
+  scissors > lizard 
+  lizard > paper 
+  paper > spock
+  spock > rock
+  rock > lizard 
+  */
   
 }
