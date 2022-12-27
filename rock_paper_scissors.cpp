@@ -20,5 +20,13 @@ int main() {
   std::cout << "3) ✌️\n";
 
   std::cout << "shoot! "; 
+
+  int rock = 1; 
+  int paper = 2;
+  int scissors = 3;
+  int lizard = 4;
+  int spock = 5;
+
+  std::cin >> user;
   
 }
