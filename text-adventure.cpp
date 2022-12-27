@@ -79,9 +79,53 @@ int main() {
     std::cout << "\n";
 
     std::cout << "*      *      *\n";
-    std::cout << "As the first witness is called, you notice a bit of cake in your pocket. You are still very hungry.\n";
-    std::cout << "Do you eat the bit of cake in your pocket?\n";
+    std::cout << "As the first witness is called, you notice a wrapped taco in your pocket. You are still very hungry.\n";
+    std::cout << "Do you eat the taco in your pocket?\n";
 
+
+
+    // Character Choice 2 
+    char choice2;
+    
+    for (int i = 0; i < 3 && choice2 != 'A' && choice2 != 'B'; i++) {
+
+        std::cout << "Enter A if you eat the taco.\n";
+        std::cout << "Enter B if you decide to wait until the trial is over.\n";
+        std::cin >> choice2;
+
+    }
+
+    if (choice2 != 'A' && choice2 != 'B') {
+
+        std::cout << "Sorry, you haven't entered a valid choice.\n";
+        std::cout << "Goodbye.\n";
+        return 0;
+
+    } else if (choice2 == 'B') {
+
+        std::cout << "Your stomach rumbles audibly, interrupting the interrogation.\n";
+        std::cout << "'YOU did it!' screams the Queen of California.\n";
+        std::cout << "'I did what?' you ask.\n";
+        std::cout << "'SHE stole the taco! Thief! OFF WITH HER HEAD!' the Queen is pointing at you. Her face is growing redder as her voice gets higher.\n";
+        std::cout << "Several cards dressed as guards carry you off to be executed.\n";
+        std::cout << "Just as your head is on the chopping block, you catch a glimpse of a wide smile in the tree above.\n";
+        std::cout << "THE END\n";
+        return 0;
+
+    }
+
+    std::cout << "You eat the taco and it really does make you feel better. Meanwhile, the trial proceeds...\n";
+    std::cout << "The first witness is the Hatter.\n";
+    std::cout << "'Give your evidence,' says the King, 'and don't be nervous, or you'll be executed on the spot.'\n";
+    std::cout << "\n";
+
+    std::cout << "*      *      *\n";
+    std::cout << "While the Hatter answers nervously, you suddenly feel a very curious sensation — you are growing larger.\n";
+    std::cout << "It must have been the taco you ate...\n";
+    std::cout << "What do you do?\n";
+
+
+    // Character Choice 3
 
     
 
