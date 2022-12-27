@@ -5,8 +5,10 @@ int main() {
   //
   std::cout << "MAGIC 🎱 SAYS: \n\n";
 
+  // Writes different number for each execution
   srand(time(NULL));
 
+  // Generates random number 
   int choice = std::rand() % 10;
 
   switch(choice) {
@@ -25,5 +27,25 @@ int main() {
     case 4: 
     std::cout << "Nomo FOMO.\n";
     break;
+    case 5:
+    std::cout << "Yas.\n";
+    break;
+    case 6: 
+    std::cout << "Work it, dawg!\n";
+    break;
+    case 7:
+    std::cout << "Carpe dayum!\n";
+    break;
+    case 8:
+    std::cout << "Cha-chinga!\n";
+    break;
+    case 9: 
+    std::cout << "Yaaaas Kween!\n";
+    break;
+    default:
+    std::cout << "IDK.\n";
+    break;
+
     }
+    return 0; 
 }
