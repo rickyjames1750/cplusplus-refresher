@@ -111,5 +111,28 @@ int main() {
       ravenclaw++;
      else 
       std::cout << "Invalid input\n";
+
+    // ~~~~~~~~~~ Question 4 ~~~~~~~~~~
+
+     std::cout << "\nQ4) Which road tempts you the most?\n\n";
+
+     std::cout << " 1)  The wide, sunny grassy lane\n";
+     std::cout << " 2)  The narrow, dark, lantern-lit alley\n";
+     std::cout << " 3)  The twisting, leaf-strewn path through woods\n";
+     std::cout << " 4)  The cobbled street lined (ancient buildings)\n\n";
+
+     std::cout << "Enter your answer (1-4): ";
+     std::cin >> answer4;
+
+     if (answer4 == 1)
+      hufflepuff++;
+     else if ( 4 == 2)
+      slytherin++;
+     else if (4 == 3)
+      gryffindor++;
+     else if (4 == 4)
+      ravenclaw++;
+     else 
+      std::cout << "Invalid input\n";
  
 }
