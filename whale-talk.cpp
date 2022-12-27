@@ -25,7 +25,14 @@ int main() {
 
   for (int i = 0; i < input.size(); i++) {
     for (int j = 0; i < vowels.size(); j++) {
-      
+        if (input[i] == vowels[j]) {
+        whale_talk.push_back(input[i]);
+
+        if (input[i] == 'e' || input[i] == 'u') {
+          whale_talk.push_back(input[i]);
+        }
+      }
+
     }
   } 
 }
