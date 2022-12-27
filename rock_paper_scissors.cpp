@@ -47,7 +47,7 @@ int main() {
   if (user == rock && computer == scissors) {
     std::cout << "You Win!\n";
 
-  } else if (user == scissors && computer == peper) {
+  } else if (user == scissors && computer == paper) {
     std::cout << "You Win!\n";
 
   } else if (user == paper && computer == rock) {
@@ -56,19 +56,26 @@ int main() {
   } else if (user == lizard && computer == spock) { 
     std::cout << "You Win!\n";
 
-  } else if () {
+  }else if (user == spock && computer == scissors)  {
+    std::cout << "You Win!\n";
 
-  } else if () {
+  } else if (user == scissors && computer == lizard) {
+    std::cout << "You Win!\n";
 
-  } else if () {
+  } else if (user == lizard && computer == paper) {
+    std::cout << "You Win!\n";
 
-  } else if () {
+  } else if (user == paper && computer == spock) {
+    std::cout << "You Win!\n";
 
-  } else if () {
+  } else if (user == spock && computer == rock) {
+    std::cout << "You Win!\n";
 
-  } else if () {
+  } else if (user == rock && computer == lizard) {
+    std::cout << "You Win!\n";
      
-  } else if () {
+  } else if (user == computer) {
+    std::cout << "Tie!\n";
 
   } else {
     std::cout << "You Lose!\n";
