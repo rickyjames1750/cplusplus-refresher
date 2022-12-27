@@ -15,26 +15,26 @@ int main() {
   std::cout << "The Sorting Hat\n";
   std::cout << "===============\n\n";
 
-  // The first question 
+    // The first question 
 
-  std::cout << "Q1) When I'm dead, I want people to remember me as:\n\n";
+    std::cout << "Q1) When I'm dead, I want people to remember me as:\n\n";
 
-  std::cout << " 1) The Good\n";
-  std::cout << " 2) The Great\n";
-  std::cout << " 3) The Wise\n";
-  std::cout << " 4) The Bold\n";
+    std::cout << " 1) The Good\n";
+    std::cout << " 2) The Great\n";
+    std::cout << " 3) The Wise\n";
+    std::cout << " 4) The Bold\n";
 
-  std::cout << "Enter your answer (1-4): ";
-  std::cin >> answer1;
+    std::cout << "Enter your answer (1-4): ";
+    std::cin >> answer1;
 
-  if(answer1 == 1)
-    hufflepuff++;
-  else if (answer1 == 2)
-    slytherin++;
-  else if (answer1 == 3)
-    ravenclaw++;
-  else if (answer1 == 4)
-    gryffindor++; 
+    if(answer1 == 1)
+        hufflepuff++;
+    else if (answer1 == 2)
+        slytherin++;
+    else if (answer1 == 3)
+        ravenclaw++;
+    else if (answer1 == 4)
+        gryffindor++; 
 
 
 
@@ -67,7 +67,26 @@ int main() {
     }
 
 
+    // Question 3
+    std::cout << "\nQ3) Which kind of instrument most pleases your ear?\n\n";
 
+    std::cout << "  1)  The violin\n";
+    std::cout << "  2)  The trumpet\n";
+    std::cout << "  3)  The piano\n";
+    std::cout << "  4)  The drum\n";
 
+    std::cout << "Enter your answer (1-4): ";
+    std::cin >> answer3;
+
+    if (answer3 == 1)
+      slytherin++;
+    else if (answer3 == 2)
+      hufflepuff++;
+    else if (answer3 == 3)
+      ravenclaw++;
+    else if (answer3 == 4)
+      gryffindor++;
+    else
+      std::cout << "Invalid input\n";
  
 }
