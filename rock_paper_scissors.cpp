@@ -41,5 +41,37 @@ int main() {
   spock > rock
   rock > lizard 
   */
+
+ std::cout << "computer: " << computer << "\n\n";
+
+  if (user == rock && computer == scissors) {
+    std::cout << "You Win!\n";
+
+  } else if (user == scissors && computer == peper) {
+    std::cout << "You Win!\n";
+
+  } else if (user == paper && computer == rock) {
+    std::cout << "You Win!\n";
+
+  } else if (user == lizard && computer == spock) { 
+    std::cout << "You Win!\n";
+
+  } else if () {
+
+  } else if () {
+
+  } else if () {
+
+  } else if () {
+
+  } else if () {
+
+  } else if () {
+     
+  } else if () {
+
+  } else {
+    std::cout << "You Lose!\n";
+  }
   
 }
