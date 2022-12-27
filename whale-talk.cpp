@@ -5,34 +5,46 @@
 int main() {
   // Hola, Whale, whale, whale. 
   // What have we got here? 
-
+  
   // Input string for program to translate 
-  std::string input = "Turpentine and Turtles.";
-
-
-  // Created Char vector named vowels
+  std::string input = "Turpentine and turtles.";
+  
   std::vector<char> vowels;
 
-  // we can use push_back to add to vector
   vowels.push_back('a');
   vowels.push_back('e');
   vowels.push_back('i');
   vowels.push_back('o');
   vowels.push_back('u');
-  // Whales don't consider y as a vowel so we skip it 
 
   std::vector<char> whale_talk;
 
   for (int i = 0; i < input.size(); i++) {
-    for (int j = 0; i < vowels.size(); j++) {
-        if (input[i] == vowels[j]) {
+    
+    for (int j = 0; j < vowels.size(); j++) {
+
+      if (input[i] == vowels[j]) {
+
         whale_talk.push_back(input[i]);
+       
+        if (input[i] == 'e' || input [i] == 'u') {
 
-        if (input[i] == 'e' || input[i] == 'u') {
-          whale_talk.push_back(input[i]);
+        whale_talk.push_back(input[i]);
+        
         }
+      
       }
-
+      
     }
-  } 
+  
+  }
+  
+  for (int k = 0; k < whale_talk.size(); k++) {
+    
+    std::cout << whale_talk[k];
+    
+  }
+  
+  std::cout << "\n";
+  
 }
