@@ -17,4 +17,14 @@ int main() {
   std::cout << "     / _/`\"`\n";
   std::cout << "    {\\  )_\n";
   std::cout << "     `\"\"\"`\n";
+
+
+// Finishes the intro story 
+  std::cout << "\n";
+  std::cout << "In the very middle of the court is a table, with a large dish of tarts upon it. They look really good, making you feel quite hungry.\n";
+  std::cout << "You see twelve jurors writing busily on slates. You wonder how they have anything to write down before the trial's begun.\n";
+  std::cout << "*      *      *\n";
+  std::cout << "What do you do?\n";
+
+  
 }
