@@ -5,4 +5,6 @@
 int main() {
   // Hola, Whale, whale, whale. 
   // What have we got here? 
+
+  std::string input = "Turpentine and Turtles.";
 }
