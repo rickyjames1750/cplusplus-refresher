@@ -150,3 +150,24 @@ int main() {   // function
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------------------------- */
+
+/*
+Indentation 
+
+All indentations should be two spaces at a time. There should be an indentation each time a new block (eg. loop, method, etc) 
+is opened, as seen in the examples above. 
+Do Not use tabs in your code unless your editor is set to emit two spaces on tab.
+*/
+
+// Example below 
+
+// Good: two spaces 
+if (n == 3) {
+  std::cout << "Fizz";
+
+}
+
+// Bad: tab or four spaces 
+if (n == 5) {
+    std::cout << "Buzz";
+}
