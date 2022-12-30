@@ -58,3 +58,36 @@ Thus, Include headers should be listed in the following order:
 #include "foo/server/bar.h"
 
 // The rest of one's code goes here... 
+
+
+/*
+Naming Conventions 
+
+Generally speaking, the best names are those that can be immediately understood by a new reader.
+Names should capture their context in the program without being too long. 
+
+Regardless of the type, a name in C++ can never start with a digit. 
+You should also avoid using the name of a predefined c++ keyword for your own variable or class.
+
+User-defined class names and function names use pascal case, which starts with a capital letter 
+and has a captial letter for each new word, with no underscores.
+*/
+
+// Example 
+// LinkedList or BubbleSort()
+
+// Variables names are all lowercase, with underscores between words
+// student_id or result 
+
+
+
+/*
+Punctuation Marks
+
+Brackets {}: The open bracket should be on the same line as the statement. 
+The closing bracket should be placed under the last line of code in the scope.
+
+Parentheses (): There should be no space between parentheses and the code inside. When parentheses are used in a statement, there should be a space 
+
+
+*/
