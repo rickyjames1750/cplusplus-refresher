@@ -96,8 +96,9 @@ Punctuation Marks
 Brackets {}: The open bracket should be on the same line as the statement. 
 The closing bracket should be placed under the last line of code in the scope.
 
-Parentheses (): There should be no space between parentheses and the code inside. When parentheses are used in a statement, there should be a space
-before ( and a space after ). When parentheses are used as part of a class or function, only a space after ) is sufficient. 
+Parentheses (): There should be no space between parentheses and the code inside. When parentheses are used in a statement, 
+there should be a space before ( and a space after ). 
+When parentheses are used as part of a class or function, only a space after ) is sufficient. 
 
 Commas ,:There should always be a blank space after each comma. 
 
@@ -171,3 +172,22 @@ if (n == 3) {
 if (n == 5) {
     std::cout << "Buzz";
 }
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/*
+Line Length 
+
+Each line of a text in your code should be at most 80 characters long.
+Programmers set up their work environment assuming a particular maximum
+window width, and 80 columns have been the traditional standard. You 
+do not need to follow this rule as strictly as the others - just be mindful
+of lines that extend to long.
+
+*/
+
+// Example 
+// This function is too long
+ReturnType LongClassName::ReallyReallyReallyLongFunctionName(Type par_name1, Type par_name2, Type par_name3) 
