@@ -32,7 +32,9 @@ Style is very much a subjective matter.
 For the sake of consistency, I will use Google's C++ Style Guide. 
 */
 
-
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
 
 /*
 Include Statements
@@ -59,6 +61,9 @@ Thus, Include headers should be listed in the following order:
 
 // The rest of one's code goes here... 
 
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
 
 /*
 Naming Conventions 
@@ -81,13 +86,67 @@ and has a captial letter for each new word, with no underscores.
 
 
 
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
 /*
 Punctuation Marks
 
 Brackets {}: The open bracket should be on the same line as the statement. 
 The closing bracket should be placed under the last line of code in the scope.
 
-Parentheses (): There should be no space between parentheses and the code inside. When parentheses are used in a statement, there should be a space 
+Parentheses (): There should be no space between parentheses and the code inside. When parentheses are used in a statement, there should be a space
+before ( and a space after ). When parentheses are used as part of a class or function, only a space after ) is sufficient. 
 
+Commas ,:There should always be a blank space after each comma. 
 
 */
+
+// Example below 
+
+int GetLargerNumber(int num_one, int num_two) {
+    if (num_one > num_two) {
+        return num_one;
+    }
+    else {
+        return num_two;
+    }
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/*
+Formatting 
+Spacing 
+
+Types, variables, operators, and literal values should be seperated by one space
+horizontally like so: 
+*/
+
+string message = "Hello World!"; 
+
+// Classes, functions, global variables declarations, and preproccesor directives 
+//(eg. include) should be seperated by one space vertically:
+
+#include <iostream> // preprocessor directive 
+
+float pi = 3.1415; // global variable 
+
+class MyClass {    // class 
+    public:
+        myClass() {
+    }
+}; // notice the ; for a class 
+
+int main() {   // function 
+    return 0;
+
+} 
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
